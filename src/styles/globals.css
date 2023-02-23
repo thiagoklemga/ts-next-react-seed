@@ -1,0 +1,39 @@
+/* apply a default font size and family */
+html,
+body {
+  font-size: 16px;
+  font-family: "Arial", sans-serif;
+}
+
+/* remove margin and padding from all elements */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* apply a default background color and text color */
+body {
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* apply a default link color */
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* apply default styling to headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
