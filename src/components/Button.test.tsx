@@ -1,10 +1,10 @@
 import { render, screen } from '@testing-library/react';
-import Home from '../pages/index';
+import { Button } from './Button';
 import '@testing-library/jest-dom';
 
-describe('Home', () => {
+describe('Button', () => {
   test('renders the Home component', () => {
-    render(<Home />);
+    render(<Button />);
     const linkElement = screen.getByText(/Teste/i);
     expect(linkElement).toBeInTheDocument();
   });
